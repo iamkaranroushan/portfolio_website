@@ -6,7 +6,7 @@ import Form from "./form";
 
 const Contact = () => {
   return (
-    <div className="p-2">
+    <div className="p-2 hidden lg:block">
       <div className="lg:grid lg:grid-cols-12 ">
         <div className="col-span-6">
           <Contact_display />
