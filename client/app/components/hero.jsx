@@ -16,7 +16,7 @@ const Hero = () => {
         <h1 className=" sm:text-6xl lg:text-7xl text-4xl font-semibold uppercase text-center">
           Karan <span className="text-black/30">Roushan</span>
         </h1>
-        <p className="sm:text-4xl lg:text-5xl text-2xl font-light text-white/50  text-center">
+        <p className="sm:text-4xl lg:text-5xl text-2xl font-light text-white/40  text-center">
           Full Stack Web Developer
         </p>
       </div>
