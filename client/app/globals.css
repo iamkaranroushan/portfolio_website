@@ -31,3 +31,27 @@ body {
 .about-para{
   @apply text-center pb-4 text-white/50
 }
+@layer components {
+  .card-grids {
+    @apply relative overflow-hidden;
+  }
+
+  .project-cardbody {
+    @apply h-full; /* Adjust height as needed */
+  }
+
+  .project-footer {
+    @apply absolute bottom-0 left-0 w-full  text-white p-4 transition-transform transform translate-y-full overflow-hidden duration-300 ease-in-out;
+  }
+
+  .card-grids:hover .project-footer {
+    @apply transform translate-y-0 duration-300 ease-in-out;
+  }
+}
+
+.project-tech{
+  @apply flex justify-end items-center gap-1
+}
+.project-header{
+  @apply flex justify-between items-center bg-white/10
+}

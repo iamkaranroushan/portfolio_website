@@ -8,7 +8,8 @@ import {
   SiGraphql,
   SiMongodb,
   SiExpress,
-  SiNextui
+  SiNextui,
+  SiSocketdotio 
 } from "react-icons/si";
 import { FaNodeJs, FaGithub  } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
@@ -27,6 +28,7 @@ const Skills = () => {
     { icon: <FaNodeJs />, name: "NodeJS" },
     { icon: <SiExpress />, name: "ExpressJs" },
     { icon: <SiMongodb />, name: "MongoDB" },
+    { icon: <SiSocketdotio />, name: "Socket.io" },
     { icon: <FaGithub />, name: "Github" },
     // Add more skills as needed
   ];
