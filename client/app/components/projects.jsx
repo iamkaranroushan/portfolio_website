@@ -19,7 +19,7 @@ const Projects = () => {
     <div className="py-4 ">
       <h1 className="text-4xl text-center font-bold pb-10">Projects</h1>
       <div className="grid grid-cols-12 gap-4 ">
-        <Card isFooterBlurred className="card-grids">
+        <Card className="card-grids">
           <CardHeader className="project-header">
             <div className="project-tech">
               {chatApp.map((tech, idx) => (
@@ -37,7 +37,7 @@ const Projects = () => {
             This is a real time messaging application
           </CardFooter>
         </Card>
-        <Card isFooterBlurred  className="card-grids">
+        <Card className="card-grids">
           <CardHeader className="project-header">
             <div className="project-tech">
               {chatApp.map((tech, idx) => (
@@ -55,7 +55,7 @@ const Projects = () => {
             This is portfolio application
           </CardFooter>
         </Card>
-        <Card isFooterBlurred  className="card-grids">
+        <Card  className="card-grids">
           <CardHeader className="project-header">
             <div className="project-tech">
               {chatApp.map((tech, idx) => (
