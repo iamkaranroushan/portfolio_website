@@ -55,3 +55,7 @@ body {
 .project-header{
   @apply flex justify-between items-center bg-white/10
 }
+
+.form-input{
+  @apply text-medium
+}

@@ -29,7 +29,6 @@ const Contact_display = () => {
               </span>
             ))}
           </span>
-          <p className="text-xl bg-gradient-to-r to-cyan-500 from-purple-500 p-2"> </p>
         </CardBody>
       </Card>
     </div>
